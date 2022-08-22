@@ -28,8 +28,6 @@ function disableButton(btn) {
     } else {
         document.getElementById(btn.id).disabled = false;
     }
-
-    console.log(count);
 }
 
 //Function for read input field value
