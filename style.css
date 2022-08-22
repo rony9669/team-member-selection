@@ -1,0 +1,20 @@
+/* font link css */
+
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+header {
+    font-family: "Berkshire Swash", cursive;
+}
+
+
+/* background image css */
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    opacity: 90%;
+    background-image: url("./image/football.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
