@@ -41,11 +41,11 @@ function InputFieldValue(InputFieldId) {
 
     if (moneyInString == "") {
         alert("Empty input field");
-        if (Math.sign(moneyInNumber) === -1) {
-            alert("Input Value can not be negative");
+    }
+    if (Math.sign(moneyInNumber) === -1) {
+        alert("Input Value can not be negative");
 
-            return;
-        }
+        return;
     }
 
     return moneyInNumber;
