@@ -8,7 +8,7 @@ document
         playerTotalMoney.innerText = playerMoney;
     });
 
-// Event Handler for Calculate Total Button
+//Click Event Handler for Calculate Total Button
 document
     .getElementById("total-calculate-button")
     .addEventListener("click", function() {
