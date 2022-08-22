@@ -39,10 +39,13 @@ function InputFieldValue(InputFieldId) {
     const moneyInString = money.value;
     const moneyInNumber = parseFloat(moneyInString);
 
-    if (Math.sign(moneyInNumber) === -1) {
-        alert("Input Value can not be negative");
+    if (moneyInString == "") {
+        alert("Empty input field");
+        if (Math.sign(moneyInNumber) === -1) {
+            alert("Input Value can not be negative");
 
-        return;
+            return;
+        }
     }
 
     return moneyInNumber;
