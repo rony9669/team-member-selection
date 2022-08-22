@@ -59,3 +59,8 @@ function playerTotalAmount() {
     const playerMoney = perPlayerMoney * tempLength;
     return playerMoney;
 }
+
+function makeEmptyInputField(inputId) {
+    const emptyField = (document.getElementById(inputId).value = "");
+    return emptyField;
+}

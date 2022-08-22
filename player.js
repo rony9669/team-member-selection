@@ -6,6 +6,10 @@ document
 
         const playerTotalMoney = document.getElementById("player-total-money");
         playerTotalMoney.innerText = playerMoney;
+
+        const makeEmptyPerPlayerField = makeEmptyInputField(
+            "input-per-player-money"
+        );
     });
 
 //Click Event Handler for Calculate Total Button
@@ -17,6 +21,9 @@ document
         const coachMoney = InputFieldValue("input-coach-money");
 
         const totalMoney = (playerMoney + coachMoney + managerMoney).toFixed(2);
+
+        const makeEmptyManagerField = makeEmptyInputField("input-manager-money");
+        const makeEmptyCoachField = makeEmptyInputField("input-coach-money");
 
         const totalCalculationMoney = document.getElementById(
             "total-calculation-money"
