@@ -1,10 +1,10 @@
 //Function for selecting favourite member and make a order list item.
 
 function memberList(playerId) {
-    let temp = document.getElementById("list-id");
-    let tempLength = temp.children.length;
+    let listElement = document.getElementById("list-id");
+    let listElementLength = listElement.children.length;
 
-    if (tempLength < 5) {
+    if (listElementLength < 5) {
         let list = document.getElementById("list-id");
         let firstName = document.getElementById(playerId).innerText;
         let entry = document.createElement("li");
